@@ -10,7 +10,9 @@ angular.module('testAppApp', [
   'ngRoute',
   'btford.socket-io',
   'ui.bootstrap',
-  'validation.match'
+  'validation.match',
+  'ngAnimate',
+  'ngMaterial'
 ])
   .config(function($routeProvider, $locationProvider) {
     $routeProvider
